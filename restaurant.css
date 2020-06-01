@@ -1,0 +1,44 @@
+#body{
+    background:#6d695c;
+    margin:0 auto;
+    padding:70px 0px;
+    transform:scale(0.9);
+    background-image:
+    repeating-linear-gradient(120deg, rgba(255,255,255,.1), rgba(255,255,255,.1) 1px, transparent 1px, transparent 60px),
+    repeating-linear-gradient(60deg, rgba(255,255,255,.1), rgba(255,255,255,.1) 1px, transparent 1px, transparent 60px),
+    linear-gradient(60deg, rgba(0,0,0,.1) 25%, transparent 25%, transparent 75%, rgba(0,0,0,.1) 75%, rgba(0,0,0,.1)),
+    linear-gradient(120deg, rgba(0,0,0,.1) 25%, transparent 25%, transparent 75%, rgba(0,0,0,.1) 75%, rgba(0,0,0,.1));
+}
+#restaurant_tittle{
+	font:bold 1.536rem arial;
+	text-align:center;
+    margin-top:2rem;
+	color:black;
+}
+.linea{
+	border-top: 5px solid #0077C0;
+}
+.plato{ 
+    background-color:#AEE7F7;
+    border:5px double maroon;
+    margin-left:3.7rem;
+    margin-top:2rem;
+    float:left;
+}
+.plato h3{ 
+    font:bold 1.063rem arial; 
+    text-align:center;
+    padding:0.25rem; 
+}
+.plato li{ 
+    list-style-type:circle; 
+    font-size:0.875rem;
+    font-family:"Helvetica Neue";
+    margin-left:0.313rem; 
+}
+.plato li a{ 
+    text-decoration:none;
+    color:#2436A5; }
+.plato li a:hover{ 
+    color:green;
+}

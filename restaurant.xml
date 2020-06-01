@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="ISO-8859-15"?>
+<?xml-stylesheet type="text/xsl" href="restaurant.xsl"?>
+<restaurante>
+    <plato>
+        <nombre>Gazpacho andaluz</nombre>
+        <imagen ruta="imgs/gazpacho.jpg"/>
+        <precio>Precio(€):6</precio>
+        <web link="https://www.directoalpaladar.com/recetas-de-sopas-y-cremas/receta-de-gazpacho-andaluz-tradicional">Más información</web>
+    </plato>
+    <plato>
+        <nombre>Carrillera</nombre>
+        <imagen ruta="imgs/carrillera.jpg"/>
+        <precio>Precio(€):12</precio>
+        <web link="https://www.directoalpaladar.com/recetas-de-carnes-y-aves/carrilleras-cerdo-al-vino-tinto-receta-para-impresionar-e-impresionarte">Más información</web>
+    </plato>
+    <plato>
+        <nombre>Cuscús</nombre>
+        <imagen ruta="imgs/cuscus.jpg"/>
+        <precio>Precio(€):8</precio>
+        <web link="https://www.directoalpaladar.com/tag/cous-cous">Más información</web>
+    </plato>
+    <plato>
+        <nombre>Tarta de chocolate y café</nombre>
+        <imagen ruta="imgs/tarta.jpg"/>
+        <precio>Precio(€):5</precio>
+        <web link="https://www.directoalpaladar.com/videos-recetas/tarta-facil-chocolate-cafe-horno-receta-que-querras-hacer-parar-video-incluido">Más información</web>
+    </plato>
+    <plato_combinado>
+        <nombre>Cuscús con carrillera</nombre>
+        <imagen ruta="imgs/cuscus_carrillada.jpg"/>
+        <web link="http://cocinadeandalucia.blogspot.com/2013/03/carrillera-iberica-sobre-timbal-de-cous.html">Más información</web>
+    </plato_combinado>
+</restaurante>
